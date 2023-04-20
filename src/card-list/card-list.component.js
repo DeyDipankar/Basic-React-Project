@@ -19,6 +19,7 @@ class CardList extends Component{
                         const {name, email, id} = data //note the use : before return statement
                         return (
                             <Card name={name} email={email} id={id}/>
+                            //<Card person={data}/> and then use it like const {name, email, id} = this.props.person
                         )
                     })
                 }

@@ -39,16 +39,7 @@ class App extends Component {
 
     return (
     <div className='App'>
-      {/* <input className='search-box' type='search' placeholder='search person' onChange={this.onSearchChange}/> */}
-      {/* {
-        filteredNames.map(person=>{
-          return <h3 key={person.name}>{person.name}</h3>
-        })
-      } */}
-
-    <div>
-
-    </div>
+      <h2 className='app-title'>Know Your Buddy</h2>
       <SerachBox className='persons-search-box' onSearchChangeHandler={this.onSearchChange} placeholder='search persons'/>
       <CardList persons={filteredNames}/>
     </div>

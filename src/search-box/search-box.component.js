@@ -8,7 +8,7 @@ class SerachBox extends Component{
     }
 
     render(){
-        console.log('render from search box component')
+        // console.log('render from search box component')
         const {onSearchChangeHandler, placeholder} = this.props
         return(
             <div>

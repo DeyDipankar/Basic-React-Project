@@ -9,9 +9,9 @@ class CardList extends Component{
     }
 
     render(){
-        console.log('render from card-list-component.js')
+        // console.log('render from card-list-component.js')
         const {persons} = this.props
-        console.log(persons)
+        // console.log(persons)
         return(
             <div className="card-list">
                 {

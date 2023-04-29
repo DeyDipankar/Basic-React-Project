@@ -13,3 +13,9 @@ body {
   );
   text-align: center;
 }
+
+.app-title {
+  font-size: 60px;
+  color: rgb(28, 208, 208);
+  font-family: 'Segoe UI';
+}

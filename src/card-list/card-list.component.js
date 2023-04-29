@@ -9,16 +9,16 @@ class CardList extends Component{
     }
 
     render(){
-        console.log('render from card-list-component.js')
+        // console.log('render from card-list-component.js')
         const {persons} = this.props
-        console.log(persons)
+        // console.log(persons)
         return(
             <div className="card-list">
                 {
                     persons.map((data)=>{
                         const {name, email, id} = data //note the use : before return statement
                         return (
-                            <Card name={name} email={email} id={id}/>
+                            <Card name={name} email={email} id={id} key={id}/>
                             //<Card person={data}/> and then use it like const {name, email, id} = this.props.person
                         )
                     })
